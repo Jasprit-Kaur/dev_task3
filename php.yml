@@ -38,7 +38,7 @@ spec:
         dc: IN
     spec:
       containers:
-      - image: vimal13/apache-webserver-php:v2
+      - image: vimal13/apache-webserver-php
         name: php
         ports:
         - containerPort: 80
